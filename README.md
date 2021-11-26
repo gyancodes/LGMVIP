@@ -1,2 +1,2 @@
-# LGMVIP-Task-1
-## Created single page website using HTML, CSS, Javascript
+# LGMVIP
+<h3>Task1- Create a single-page website
