@@ -1,0 +1,101 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+}
+.main {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  height: 70px;
+  padding: 20px;
+  padding-top: 20px;
+}
+nav {
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 70px;
+  width: 100%;
+  border: coral;
+  border-radius: 10px;
+}
+h1 {
+  float: left;
+  padding: 10px;
+  color: white;
+  border-radius: 15px;
+  margin-top: 12px;
+  margin-left: 40px;
+  font-size: 25px;
+  font-family:'Ubuntu';
+}
+.btn {
+  margin-top: 12px;
+  margin-right: 40px;
+  float: right;
+  padding: 13px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+}
+.row {
+  margin-top: -20px;
+  margin-left: 100px;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10 10px;
+  margin: 20px;
+}
+.card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+  /* background-color: #f8fcd4; */
+  background: #ff9966;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card-img-top {
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+  border: 4px solid black;
+}
+.card-text {
+  color:white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 19px;
+}
+.card:hover {
+  box-shadow: 4px 3px black;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.card:hover .card-text {
+  color: wheat;
+}
